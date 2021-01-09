@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './components/Main/Main.js';
 
 ReactDOM.render(
-  <div>Nic tu nie ma!</div>,
+  <Main />,
   document.getElementById("root")
 );
