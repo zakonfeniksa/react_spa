@@ -1,4 +1,4 @@
-import React, { Component } from './Contact.css';
+import React, { Component } from 'react';
 import './Contact.css';
 
 class Contact extends Component{
