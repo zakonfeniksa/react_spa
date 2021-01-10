@@ -15,11 +15,11 @@ class Main extends Component{
         <h1>Prosta aplikacja jednostronowa</h1>
         <ul className="header">
           <li><NavLink to="/">Strona główna</NavLink></li>
-          <li><NavLink to="/">O nas</NavLink></li>
-          <li><NavLink to="/">Kontakt</NavLink></li>
+          <li><NavLink to="/stuff">O nas</NavLink></li>
+          <li><NavLink to="/contact">Kontakt</NavLink></li>
         </ul>
         <div className="content">
-          <Route path="/" component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/stuff" component={Stuff}/>
           <Route path="/contact" component={Contact}/>
         </div>
