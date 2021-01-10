@@ -1,7 +1,7 @@
 import React, { Component } from './Contact.css';
 import './Contact.css';
 
-class Contact extends Component {
+class Contact extends Component{
   render(){
     return(
       <div>
