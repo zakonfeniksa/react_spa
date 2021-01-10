@@ -14,7 +14,7 @@ class Main extends Component{
       <div>
         <h1>Prosta aplikacja jednostronowa</h1>
         <ul className="header">
-          <li><Navlink to="/">Strona główna</Navlink></li>
+          <li><NavLink to="/">Strona główna</NavLink></li>
           <li><NavLink to="/">O nas</NavLink></li>
           <li><NavLink to="/">Kontakt</NavLink></li>
         </ul>
